@@ -1,7 +1,7 @@
 [project]
 name = "sophisthse"
-version = "0.1.1"
-description = "SophistHSE package provides methods to access timeseries data from sophist.hse.ru using Python."
+version = "0.1.2"
+description = "This package has been discontinued following the shutdown of [sophist.hse.ru](https://sophist.hse.ru/hse/nindex.shtml). SophistHSE package provides methods to access timeseries data from sophist.hse.ru using Python."
 readme = "README.md"
 authors = [{ name = "Aleksei Prishchepo", email = "sophisthse@outlook.com" }]
 license = { text = "MIT" }
@@ -22,5 +22,5 @@ build-backend = "flit_core.buildapi"
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov", "requests_mock", "flake8", "black"]
 [project.urls]
-Homepage = "https://github.com/AlekseiPrishchepo/pysophisthse"
-Source = "https://github.com/AlekseiPrishchepo/pysophisthse"
+Homepage = "https://github.com/AxesAccess/pysophisthse"
+Source = "https://github.com/AxesAccess/pysophisthse"
